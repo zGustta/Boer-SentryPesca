@@ -1,0 +1,124 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Tempo\\Caua\\Engenharia de Software\\Vs\\SisVendas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AFEC918A-9DA2-4483-A2C0-A89190A56D92}|WindowsFormsApp1\\SisVendas.csproj|C:\\Tempo\\Caua\\Engenharia de Software\\Vs\\SisVendas\\windowsformsapp1\\view\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AFEC918A-9DA2-4483-A2C0-A89190A56D92}|WindowsFormsApp1\\SisVendas.csproj|solutionrelative:windowsformsapp1\\view\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFEC918A-9DA2-4483-A2C0-A89190A56D92}|WindowsFormsApp1\\SisVendas.csproj|C:\\Tempo\\Caua\\Engenharia de Software\\Vs\\SisVendas\\windowsformsapp1\\view\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFEC918A-9DA2-4483-A2C0-A89190A56D92}|WindowsFormsApp1\\SisVendas.csproj|solutionrelative:windowsformsapp1\\view\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFEC918A-9DA2-4483-A2C0-A89190A56D92}|WindowsFormsApp1\\SisVendas.csproj|C:\\Tempo\\Caua\\Engenharia de Software\\Vs\\SisVendas\\windowsformsapp1\\view\\principal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFEC918A-9DA2-4483-A2C0-A89190A56D92}|WindowsFormsApp1\\SisVendas.csproj|solutionrelative:windowsformsapp1\\view\\principal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFEC918A-9DA2-4483-A2C0-A89190A56D92}|WindowsFormsApp1\\SisVendas.csproj|c:\\tempo\\caua\\engenharia de software\\vs\\sisvendas\\windowsformsapp1\\controller\\controllerproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFEC918A-9DA2-4483-A2C0-A89190A56D92}|WindowsFormsApp1\\SisVendas.csproj|solutionrelative:windowsformsapp1\\controller\\controllerproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Principal.cs [Design]",
+              "DocumentMoniker": "C:\\Tempo\\Caua\\Engenharia de Software\\Vs\\SisVendas\\WindowsFormsApp1\\View\\Principal.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\View\\Principal.cs",
+              "ToolTip": "C:\\Tempo\\Caua\\Engenharia de Software\\Vs\\SisVendas\\WindowsFormsApp1\\View\\Principal.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\View\\Principal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T11:02:00.097Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "controllerProduto.cs",
+              "DocumentMoniker": "C:\\Tempo\\Caua\\Engenharia de Software\\Vs\\SisVendas\\WindowsFormsApp1\\Controller\\controllerProduto.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Controller\\controllerProduto.cs",
+              "ToolTip": "C:\\Tempo\\Caua\\Engenharia de Software\\Vs\\SisVendas\\WindowsFormsApp1\\Controller\\controllerProduto.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Controller\\controllerProduto.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAiwFwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T14:11:41.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Principal.cs",
+              "DocumentMoniker": "C:\\Tempo\\Caua\\Engenharia de Software\\Vs\\SisVendas\\WindowsFormsApp1\\View\\Principal.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\View\\Principal.cs",
+              "ToolTip": "C:\\Tempo\\Caua\\Engenharia de Software\\Vs\\SisVendas\\WindowsFormsApp1\\View\\Principal.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\View\\Principal.cs",
+              "ViewState": "AQIAANoCAAAAAAAAAAAvwOgCAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T12:45:23.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Principal.Designer.cs",
+              "DocumentMoniker": "C:\\Tempo\\Caua\\Engenharia de Software\\Vs\\SisVendas\\WindowsFormsApp1\\View\\Principal.Designer.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\View\\Principal.Designer.cs",
+              "ToolTip": "C:\\Tempo\\Caua\\Engenharia de Software\\Vs\\SisVendas\\WindowsFormsApp1\\View\\Principal.Designer.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\View\\Principal.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T11:01:54.366Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

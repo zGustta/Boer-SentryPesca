@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../css/signin.css" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
+    <title>Janaina - Fatec</title>
+</head>
+<body>
+    
+<div class="container">
+    <div class="card">
+        <h1>Entrar</h1>
+
+        <div id="social_media">
+            <!-- FACEBOOK -->
+            <a href="#">
+                <img src="images/facebook.png" alt="">
+            </a>
+
+            <!-- GOOGLE -->
+            <button id="google-login-btn" class="google-button">
+                <img src="images/google.png" alt="Google logo">
+            </button>
+
+            <!-- GITHUB -->
+            <a href="#">
+                <img src="images/github.png" alt="">
+            </a>
+        </div>
+
+        <div id="msgError"></div>
+
+        <div class="label-float">
+            <input type="text" id="usuario" placeholder="" required />
+            <label id="userLabel" for="usuario">Usuario</label>
+        </div>
+
+        <div class="label-float">
+            <input type="password" id="senha" placeholder="" required />
+            <label id="senhaLabel" for="senha">Senha</label>
+            <i class="fa fa-eye" aria-hidden="true"></i>
+        </div>
+
+        <div class="justify-center">
+            <button onclick="entrar()">Entrar</button>
+        </div>
+
+        <div class="justify-center">
+            <hr />
+        </div>
+
+
+        <p>
+            Não tem uma conta?
+            <a href="./signup.html">
+                Cadastre-se
+            </a>
+        </p></br>
+        <p>
+            <a href="../../../index.html">
+                HOME
+        </p>
+    </div>
+</div>
+
+<script src="../js/signin.js"></script>
+
+<script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js";
+    import { getAuth, GoogleAuthProvider, signInWithRedirect, getRedirectResult, signInWithPopup } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-auth.js";
+
+    const firebaseConfig = {
+        apiKey: "AIzaSyAzOJz-u6Bx3HqlVpysaZfe9vdtYgCCfPQ",
+        authDomain: "login-c323c.firebaseapp.com",
+        projectId: "login-c323c",
+        storageBucket: "login-c323c.appspot.com",
+        messagingSenderId: "827053329813",
+        appId: "1:827053329813:web:f38c50e716b8a633bbba9c"
+    };
+
+
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
+    auth.languageCode = 'en';
+    const provider = new GoogleAuthProvider(app);
+
+    const googleLogin = document.getElementById("google-login-btn");
+    googleLogin.addEventListener("click", function () {
+        signInWithPopup(auth, provider)
+            .then((result) => {
+
+                const credential = GoogleAuthProvider.credentialFromResult(result);
+                const token = credential.accessToken;
+                const user = result.user;
+                console.log(user);
+                window.location.href = "./dash.html";
+
+            }).catch((error) => {
+
+                const errorCode = error.code;
+                const errorMessage = error.message;
+                const email = error.customData.email;
+                const credential = GoogleAuthProvider.credentialFromError(error);
+            });
+    });
+
+</script>
+
+</body>
+</html>
